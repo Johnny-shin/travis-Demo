@@ -14,9 +14,10 @@ deploy:
   provider: pages #internally travis knows working with github
   skip-cleanup: true #because build file is on github
   github-token: $GITHUB_TOKEN #to prevent exposure of token
-  local_dir: build
+  # local_dir: build
   on:
-    branch: gh-pages
+    branch: master
+#gh-pages
 # before_install:
 # install:
 # before_script:
