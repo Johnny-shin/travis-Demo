@@ -16,7 +16,7 @@ deploy:
   github-token: $GITHUB_TOKEN #to prevent exposure of token
   local_dir: build
   on:
-    branch: master
+    branch: gh-pages
 # before_install:
 # install:
 # before_script:
